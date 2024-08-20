@@ -1,0 +1,17 @@
+header {
+  height: 64px;
+  ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    list-style: none;
+
+    a {
+      display: block;
+      padding: 12px 24px;
+      font-size: 24px;
+    }
+  }
+}

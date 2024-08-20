@@ -1,0 +1,3 @@
+@for (color of ['lightyellow', 'lightblue', 'lightgreen']; track color) {
+  <section [style.--bg-color]="color" >{{ page() }} section {{ $index + 1 }}</section>
+}
